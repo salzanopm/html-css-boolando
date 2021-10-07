@@ -1,0 +1,124 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* COMMON */
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+/* RIGHE */
+.row {
+    text-align: center;
+    margin: 10px;
+}
+
+/* contenitore prodotti */
+.product {
+    width: 32%;
+    display: inline-block;
+}
+
+/* contenitore immagini */
+.img-container {
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+/* immagine base */
+.real { 
+    display: inline-block;
+}
+
+.img-container:hover .real {
+    display: none;
+}
+
+/* immagine hover */
+.ghost {
+    display: none;
+}
+
+.img-container:hover .ghost {
+    display: inline-block;
+}
+
+.heart-box  {
+    display: inline-block;
+    line-height: 25px;
+    width: 10%;
+    height: 7%;
+    font-size: 15px;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
+
+.discount-box {
+    display: inline-block;
+    width: 12%;
+    position: absolute;
+    padding: 3px;
+    bottom: 10%;
+    left: 0;
+    background-color: #eb0037;
+    color: white;
+    font-size: 8px;
+    text-align: center;
+}
+
+.green-box {
+    display: inline-block;
+    width: 26%;
+    position: absolute;
+    padding: 3px;
+    bottom: 10%;
+    left: 13%;
+    background-color: #00875a;
+    color: white;
+    font-size: 8px;
+    text-align: center;
+}
+
+.green-box1 {
+    display: inline-block;
+    width: 26%;
+    position: absolute;
+    padding: 3px;
+    bottom: 10%;
+    left: 0;
+    background-color: #00875a;
+    color: white;
+    font-size: 8px;
+    text-align: center;
+}
+
+.description {
+    text-align: left;
+}
+
+h6 {
+    font-size: 10PX;
+    font-weight: bold;
+}
+.linethrough {
+    text-decoration-line: line-through;
+}
+
+div .description {
+    font-size: 10px;
+}
+
+.red-price {
+    color: red;
+    font-weight: bold;
+}
