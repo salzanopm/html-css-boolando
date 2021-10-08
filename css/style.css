@@ -34,7 +34,7 @@ img {
 }
 
 /* immagine base */
-.real { 
+.real {
     display: inline-block;
 }
 
@@ -51,6 +51,7 @@ img {
     display: inline-block;
 }
 
+/* scatola cuore nero */
 .heart-box  {
     display: inline-block;
     line-height: 25px;
@@ -63,45 +64,27 @@ img {
     right: 0;
 }
 
-.discount-box {
-    display: inline-block;
-    width: 12%;
+/* flag discount e sostenibilità */
+.flag-container {
     position: absolute;
-    padding: 3px;
     bottom: 10%;
     left: 0;
+    color: white;
+    font-size: 8px;
+    text-align: center;
+}
+
+.discount {
     background-color: #eb0037;
-    color: white;
-    font-size: 8px;
-    text-align: center;
-}
-
-.green-box {
-    display: inline-block;
-    width: 26%;
-    position: absolute;
     padding: 3px;
-    bottom: 10%;
-    left: 13%;
-    background-color: #00875a;
-    color: white;
-    font-size: 8px;
-    text-align: center;
 }
 
-.green-box1 {
-    display: inline-block;
-    width: 26%;
-    position: absolute;
+.green {
+    background-color: #00875a;
     padding: 3px;
-    bottom: 10%;
-    left: 0;
-    background-color: #00875a;
-    color: white;
-    font-size: 8px;
-    text-align: center;
 }
 
+/* testo descrittivo sottoimmagine */
 .description {
     text-align: left;
 }
